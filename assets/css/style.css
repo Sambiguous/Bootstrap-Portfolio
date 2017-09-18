@@ -2,13 +2,20 @@ body {
     background-image: url("../images/background.png");
 }
 
-.fluid_container {
+.navbar {
     background-color: white;
 }
 
-#name_tag {
-    text-align: center;
+.navbar-header {
+    border: 0px;
+    padding: 0px; 
+
     background-color: #4AAAA5;
+}
+
+
+#name_tag {
+    padding: 0px 10px;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }
