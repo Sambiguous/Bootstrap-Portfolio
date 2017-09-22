@@ -2,20 +2,48 @@ body {
     background-image: url("../images/background.png");
 }
 
-.navbar {
-    background-color: white;
+a p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+	color: #777777;
 }
 
-.navbar-header {
-    border: 0px;
-    padding: 0px; 
+#page-head {
+    background-image: unset;
+    background-color: #ffffff;
+}
 
+#name-tag {
+    text-align: center;
     background-color: #4AAAA5;
-}
-
-
-#name_tag {
     padding: 0px 10px;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+#nav-container {
+    vertical-align: middle;
+    margin: 0px;
+    text-align: center;
+}
+
+
+#nav-links button {
+    padding: 20px 25px;
+    font-size: 20px;
+    color:#777777;
+    border-color: #ffffff;
+    box-shadow: unset;
+    text-shadow: unset;
+    background-image: unset;
+    border-radius: unset;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #nav-links button {
+        margin-top: 5px;
+        padding: 5px 25px 5px 25px;
+    }
 }
