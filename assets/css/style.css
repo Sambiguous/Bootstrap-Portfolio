@@ -1,9 +1,10 @@
 body {
-    padding-bottom: 50px;
+    padding-bottom: 75px;
     background-image: url("../images/background.png");
 }
 
 a p {
+    text-decoration: none;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	text-decoration: none;
 	color: #777777;
