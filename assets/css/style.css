@@ -14,7 +14,6 @@ a p {
     border: 1px solid #dddddd;
 }
 
-
 .scnd-header {
     padding-right:10px;
     padding-left: 10px;
@@ -46,7 +45,6 @@ a p {
     text-align: center;
 }
 
-
 #nav-links button {
     padding: 20px 25px;
     font-size: 20px;
@@ -68,18 +66,47 @@ a p {
     margin:0px 5px 5px 5px;
 }
 
+#bio-txt{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#button {
+	background-color: #4AAAA5;
+	padding: 0px;
+	border: 0px;
+	margin: 20px 0px 0px 0px;
+	height: 40px;
+	width: 125px;
+	color: white;
+	font-size: 16px;
+}
+
 .c-link {
     width: 50px;
     height: 50px;
 }
 
+.p_link {
+    text-align: center;
+}
 
-@media only screen and (max-width: 768px) {
-    #nav-links button {
-        margin-top: 5px;
-        padding: 5px 25px 5px 25px;
-    }
- 
+.p_link img {
+    margin: 5px 0px;
+    width: 280px;
+    height: 210px;
+}
+
+.banner {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 0px auto;
+    height: 40px;
+    width: 280px;
+    background-color: #4AAAA5;
+    position: relative;
+    bottom: 60px;
 }
 
 #bar {
@@ -94,6 +121,14 @@ a p {
     height: 75px;
     background-color: #666666;
     text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #nav-links button {
+        margin-top: 5px;
+        padding: 5px 25px 5px 25px;
+    }
+ 
 }
 
 @media only screen and (max-width: 991px) {
