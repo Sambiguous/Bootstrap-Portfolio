@@ -1,4 +1,5 @@
 body {
+    padding-bottom: 50px;
     background-image: url("../images/background.png");
 }
 
@@ -6,6 +7,19 @@ a p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	text-decoration: none;
 	color: #777777;
+}
+
+.panel{
+    border: 1px solid #dddddd;
+}
+
+
+.scnd-header {
+    padding-right:10px;
+    padding-left: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4AAAA5;
+    font-weight: bold;
 }
 
 #page-head {
@@ -19,6 +33,10 @@ a p {
     padding: 0px 10px;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+#name-tag h1 {
+    font-weight: bold;
 }
 
 #nav-container {
@@ -39,11 +57,46 @@ a p {
     border-radius: unset;
 }
 
+#bio, #pic {
+    float: left;
+}
+
+#pic {
+    height:150px;
+    width:150px;
+    margin:0px 5px 5px 5px;
+}
+
+.c-link {
+    width: 50px;
+    height: 50px;
+}
 
 
 @media only screen and (max-width: 768px) {
     #nav-links button {
         margin-top: 5px;
         padding: 5px 25px 5px 25px;
+    }
+ 
+}
+
+#bar {
+    background-color: #4AAAA5;
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+#foot {
+    color: #d3d3d3;
+    background-image: unset;
+    height: 75px;
+    background-color: #666666;
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+    #side-bar {
+        clear: both;
     }
 }
